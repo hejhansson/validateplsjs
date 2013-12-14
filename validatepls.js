@@ -3,7 +3,7 @@
 * Validatepls.js
 * @author Alexander Hansson
 * @twitter @hejhansson
-* @URI http://alxndr.se
+* @uri http://alxndr.se
 * @version 0.1
 *
 * All you need is to include this file, the inputs you want to validate
