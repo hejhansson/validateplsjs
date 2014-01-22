@@ -17,9 +17,6 @@
 // Change this to whatever the passwords length need to be.
 var numberOfCharsInPassword = 8;
 
-// If "false" errors are alerted. If "true" the errors are saved in a var called "output" - which you can do whatever you want with.
-var noAlert = false;
-
 (function() {
 	el = document.getElementsByTagName("input");
 
@@ -68,9 +65,8 @@ function formjs() {
 						er += "The " + attr + " area needs to be filled out.\n";
 					}
 				}				
-			}
+		}
 
-		if (!noAlert) {
 
 			if (er != "") {
 				alert(er);
@@ -80,17 +76,5 @@ function formjs() {
 			else {
 				return true;
 			}
-		}
-
-		else {
-
-			if (er != "") {
-				var output = document.createTextNode(er);
-				return false;
-			}
-
-			else {
-				return true;
-			}	
 		}
 }
