@@ -8,7 +8,7 @@
 *
 * All you need is to include this file, the inputs you want to validate
 * need a class called "validatepls" to be validated, the form needs
-* either a input with the type submit or button and the input need a placeholder. 
+* either an input with the type submit or button and the input need a placeholder. 
 * The placeholder is added to the error message for better user experience. 
 * Currently supporting input with the type: text, password, checkbox, submit, button or textarea.
 *
